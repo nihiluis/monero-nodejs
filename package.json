@@ -3,14 +3,16 @@
   "version": "0.0.1",
   "description": "A Monero library written in Typescript.",
   "main": "./index.ts",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [],
   "license": "MIT",
   "dependencies": {
+    "await-protect": "^1.0.7",
     "request": "^2.85.0",
     "request-promise": "^4.2.2"
   },
   "devDependencies": {
+    "@types/request": "^2.47.0",
+    "@types/request-promise": "^4.1.41"
   }
 }
