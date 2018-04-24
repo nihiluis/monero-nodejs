@@ -2,7 +2,7 @@
   "name": "monero-nodejs",
   "version": "0.0.1",
   "description": "A Monero library written in Typescript.",
-  "main": "./lib/index.ts",
+  "main": "./index.ts",
   "scripts": {
   },
   "keywords": [],

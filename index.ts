@@ -6,7 +6,7 @@ export default class Wallet {
     user: string
     pass: string
 
-    constructor(hostname: string, port: number, user: string, pass: string) {
+    constructor(hostname: string, port: number, user: string = "", pass: string = "") {
         this.hostname = hostname || "127.0.0.1"
         this.port = port || 18082
         this.user = user || ""
