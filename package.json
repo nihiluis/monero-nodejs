@@ -1,5 +1,5 @@
 {
-  "name": "monero-nodejs",
+  "name": "monero-wallet-ts",
   "version": "0.0.1",
   "description": "A Monero library written in Typescript.",
   "main": "./index.ts",
