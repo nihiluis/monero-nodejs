@@ -1,6 +1,6 @@
 {
   "name": "monero-wallet-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Monero library written in Typescript.",
   "main": "dist/index.js",
   "scripts": {
