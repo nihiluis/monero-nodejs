@@ -2,8 +2,10 @@
   "name": "monero-wallet-ts",
   "version": "0.0.1",
   "description": "A Monero library written in Typescript.",
-  "main": "./index.ts",
-  "scripts": {},
+  "main": "dist/index.js",
+  "scripts": {
+    "postinstall": "tsc -p tsconfig.json"
+  },
   "keywords": [],
   "license": "MIT",
   "dependencies": {
