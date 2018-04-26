@@ -290,10 +290,10 @@ export default class Wallet {
     }
 
     // retrieve the standard address and payment id from an integrated address
-    async splitIntegratedAddress(address: string): Promise<Result<{ standard_address: string, payment: string }, Error>> {
+    async splitIntegratedAddress(address: string): Promise<Result<{ standard_address: string, payment_id: string }, Error>> {
         let method = "split_integrated_address"
         let params = { integrated_address: address }
-        return this.request<{ standard_address: string, payment: string }>(method, params)
+        return this.request<{ standard_address: string, payment_id: string }>(method, params)
     }
 
     // return the current block height
